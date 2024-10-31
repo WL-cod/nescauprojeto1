@@ -1,0 +1,56 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('RJ_banner_sobre_a_liga_desk.avif') no-repeat center center fixed; /* Adiciona a imagem de fundo */
+    background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+    color: #080000; /* Muda a cor do texto para melhorar a legibilidade */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: 0;
+    text-decoration: none;
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+section {
+    padding: 20px;
+}
+
+.produto {
+    background: white;
+    border: 1px solid #f30c0c;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 1px;
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background: #35424a;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

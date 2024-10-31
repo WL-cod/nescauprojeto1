@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('pontodevendas.avif') no-repeat center center fixed; /* Adiciona a imagem de fundo */
+    background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+    color: #080000; /* Muda a cor do texto para melhorar a legibilidade */
+}
+
+header {
+    background: #e20606;
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+    display: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #000000;
+}
+
+.local {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.local-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.map {
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #007BFF;
+    color: #fff;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-media i {
+    font-size: 20px;
+}

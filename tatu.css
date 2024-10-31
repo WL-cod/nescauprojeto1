@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.carrossel {
+    position: relative;
+    max-width: 100%; /* Preencher toda a largura da tela */
+    margin: auto;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease; /* Transição suave */
+}
+
+.slide {
+    min-width: 100%;
+    flex-shrink: 0; /* Impede que o slide encolha */
+}
+
+.slide img {
+    width: 100%; /* Preencher toda a largura */
+    height: 100%; /* Preencher toda a altura */
+    object-fit: cover; /* Ajusta a imagem para cobrir o contêiner */
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1; /* Coloca os botões acima do conteúdo */
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
